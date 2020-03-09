@@ -20,7 +20,7 @@ public class EmployeeTest {
 
    @Test
    public void EmployeeNumCheck(){
-        Employee employee = new Employee("shane",22541);
+        Employee employee = new Employee(22541);
         assertEquals(22541,employee.getEmployeeNum());
    }
 

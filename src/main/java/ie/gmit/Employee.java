@@ -11,7 +11,7 @@ public class Employee {
     private String name;
     private int EmployeeNum;
 
-    public Employee(String name, int EmployeeNum) {
+    public Employee(int EmployeeNum) {
 
         this.name = name;
         this.EmployeeNum = EmployeeNum;
